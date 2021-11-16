@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <FBLPromises/FBLPromises.h>
+#import "FBLPromises.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
