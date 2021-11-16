@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HIRequestLib_Example' do
+  pod 'HIRequestLib', :path => '../'
+
+  target 'HIRequestLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

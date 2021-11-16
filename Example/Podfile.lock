@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - HIRequestLib (0.0.1):
+    - AFNetworking
+    - MBProgressHUD
+    - PromisesObjC
+    - ReactiveObjC
+    - YYCache
+  - MBProgressHUD (1.2.0)
+  - PromisesObjC (2.0.0)
+  - ReactiveObjC (3.1.1)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - HIRequestLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - MBProgressHUD
+    - PromisesObjC
+    - ReactiveObjC
+    - YYCache
+
+EXTERNAL SOURCES:
+  HIRequestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  HIRequestLib: df75601f00619a3902c130aa1b0be423f42751fc
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 87e0155ea2cf2f7433e856f4aa4d2ab473f2ffc8
+
+COCOAPODS: 1.11.2
